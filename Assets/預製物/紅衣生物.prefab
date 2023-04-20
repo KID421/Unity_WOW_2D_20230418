@@ -169,7 +169,9 @@ MonoBehaviour:
   trackSize: {x: 5, y: 4, z: 1}
   attackOffset: {x: 1, y: 0, z: 0}
   attackSize: {x: 1, y: 2, z: 1}
-  attackInterval: 2.5
+  attackInterval: 1
+  attack: 40
+  attackDelay: 0.3
   parameterRun: "\u958B\u95DC\u8DD1\u6B65"
   parameterHurt: "\u89F8\u767C\u53D7\u50B7"
   parameterAttack: "\u89F8\u767C\u653B\u64CA"
@@ -192,3 +194,6 @@ MonoBehaviour:
   timeHurt: 0.8
   prefabEgg: {fileID: 4057310823869202249, guid: deae86375f908e7438e54369e0072e52, type: 3}
   offsetEgg: {x: 0, y: 0, z: 0}
+  onDead:
+    m_PersistentCalls:
+      m_Calls: []
